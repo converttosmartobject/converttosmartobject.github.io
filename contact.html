@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style type="text/css">
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:100|Libre+Barcode+39+Text');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+header a:hover {
+    color: #d9d9d9
+}
+a:visited {
+    color: #565656;
+}
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #dfe2db;
+  font-family: 'Libre Barcode 39 Text', cursive;
+}
+header {
+  background-color: black;
+  top: 0;
+  width: 100%;
+  height: 70px;
+  position:fixed;
+  font-weight:400;
+  font-size: 40px;
+  color: #565656;
+  z-index: 3; /* to bring the layer on top for the arrangement */
+}
+header ul {
+  display: flex;
+  justify-content: center;
+}
+header ul li {
+  list-style-type:none;
+  display: list-item;
+  line-height: 70px;
+  padding-left: 150px;
+}
+header ul li a { /* for links we need additional styling */
+  color:#565656;
+  text-decoration: none;
+}
+#list1 {
+  padding:0;
+}
+#main {
+  width: 100%;
+}
+.about {
+  padding: 100px 0;
+  background-size: cover;
+  background-color: #ffff99;
+  background-image: url("https://img00.deviantart.net/1edd/i/2009/351/9/b/rainbow_reflection_by_narusaku19.jpg");
+}
+.about h1 {
+  font-family: 'Libre Barcode 39 Text', cursive;
+  letter-spacing: 3px;
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 50px;
+  font-weight:500px;
+  color:white;
+}
+#circle {
+  width: 300px;
+  height: 300px;
+  background-image: url("https://78.media.tumblr.com/7b3b0f02d37179e479a63e310104cbdd/tumblr_oynvjylFsv1wgtfito1_400.jpg");
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 450px;
+  margin: 0 auto;
+  opacity: 0.7
+}
+.about p {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 200;
+  text-align: center;
+  font-size: 15px;
+  margin:0 auto;
+  margin-top: 70px;
+  max-width: 50%;
+  color: white;
+  padding: 15px;
+  /*background-color: black;
+  opacity: 0.0;
+  color:#d9d9d9;*/
+}
+.usefullinks {
+  background-color: #ECF0F1;
+  padding-bottom: 100px;
+  padding-top:50px;
+
+}
+.usefullinks h1 {
+  font-family: 'Libre Barcode 39 Text', cursive;
+  letter-spacing: 3px;
+  text-align: center;
+  font-size: 40pt;
+}
+#group {
+  width:100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+#group div {
+  margin-top: 50px;
+  width:30%;
+  text-align: center;
+  float:left;
+}
+#group div img {
+  width:120px;
+  height: auto;
+}
+#group div h2 {
+  margin-top: 20px;
+  color:#565656;
+}
+footer {
+  background-color: black;
+  width: 100%;
+  height: auto;
+  padding-top: 50px;
+  text-align: center;
+}
+footer .social img {
+  margin-left: 50px;
+  width:64px;
+  height:64px;
+}
+#firstsocial {
+  margin-left:-50px;
+}
+footer p{
+  padding: 35px 0;
+  color: #565656;
+  font-weight: 400;
+  font-size: 40px;
+}
+
+  </style>
+    <meta charset="utf-8">
+
+    <title>CONTACT</title>
+
+</head>
+<body>
+  <header>
+       <!-- You can add links to the navigation menu below (link already added to Artist Statement) -->
+       <ul>
+        <li id="list1"><a href="index.html">Home</a></li>
+        <li id="Contact"><a href="contact.html">Contact</a></li>
+        <li id="Resume"><a href="resume.html">Resume</a></li>
+        <li id="Portfolio"><a href="actualportfolio.html">Portfolio</a></li>
+      </ul>
+  </header>
+
+  <div id="main">  <!-- divs are like sections of the page.  You can apply different CSS styles to different sections -->
+
+    <div class="about">
+        <h1>CONTACT</h1>
+       <div id="circle"></div>
+     </div>
+
+
+    <footer>
+      <p> &copy; Asra Siddiqui | 2019</p>
+    </footer>
+</body>
+</html>
