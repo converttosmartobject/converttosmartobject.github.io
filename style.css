@@ -53,12 +53,58 @@ width: 100%;
 padding: 100px 0;
 background-size: cover;
 background-color: #ffff99;
-background-image: url("images/rainbowsonthewalls.jpg");
+background-image: url("images/bed.jpg");
+}
+.about2 {
+padding: 100px 0;
+background-size: cover;
+background-color: #ffff99;
+background-image: url("images/light.jpg");
+}
+.about3 {
+padding: 100px 0;
+background-size: cover;
+background-color: #ffff99;
+background-image: url("images/clock.jpg");
+}
+.about4 {
+padding: 100px 0;
+background-repeat:no-repeat;
+background-size: cover;
+background-color: #ffff99;
+background-image: url("images/lamp.jpg");
 }
 .about h1 {
 font-family: 'Libre Barcode 39 Text', cursive;
 letter-spacing: 3px;
-text-align: center;
+text-align: left;
+font-size: 50px;
+margin-bottom: 50px;
+font-weight:500px;
+color: black;
+}
+.about2 h1 {
+font-family: 'Libre Barcode 39 Text', cursive;
+letter-spacing: 3px;
+text-align: left;
+font-size: 50px;
+margin-bottom: 50px;
+font-weight:500px;
+color:white;
+}
+.about3 h1 {
+font-family: 'Libre Barcode 39 Text', cursive;
+letter-spacing: 3px;
+text-align: left;
+font-size: 50px;
+margin-bottom: 50px;
+font-weight:500px;
+color:black;
+}
+.about4 h1 {
+font-family: 'Libre Barcode 39 Text', cursive;
+letter-spacing: 3px;
+text-align: left;
 font-size: 50px;
 margin-bottom: 50px;
 font-weight:500px;
@@ -72,9 +118,54 @@ background-image: url("images/profile.jpg");
 -webkit-border-radius: 50px;
 border-radius: 450px;
 margin: 0 auto;
-opacity: 0.7
+opacity: 1;
 }
 .about p {
+/* font-family: 'Fira Sans', sans-serif; */
+font-family: 'Barlow', sans-serif;
+font-weight: 200;
+text-align: center;
+font-size: 15px;
+margin:0 auto;
+margin-top: 70px;
+max-width: 50%;
+color: white;
+padding: 15px;
+/*background-color: black;
+opacity: 0.0;
+color:#d9d9d9;*/
+}
+.about2 p {
+/* font-family: 'Fira Sans', sans-serif; */
+font-family: 'Barlow', sans-serif;
+font-weight: 200;
+text-align: center;
+font-size: 15px;
+margin:0 auto;
+margin-top: 70px;
+max-width: 50%;
+color: white;
+padding: 15px;
+/*background-color: black;
+opacity: 0.0;
+color:#d9d9d9;*/
+}
+.about3 p {
+/* font-family: 'Fira Sans', sans-serif; */
+font-family: 'Barlow', sans-serif;
+font-weight: 200;
+text-align: center;
+font-size: 15px;
+margin:0 auto;
+margin-top: 70px;
+max-width: 50%;
+color: white;
+padding: 15px;
+/*background-color: black;
+opacity: 0.0;
+color:#d9d9d9;*/
+}
+.about4 p {
 /* font-family: 'Fira Sans', sans-serif; */
 font-family: 'Barlow', sans-serif;
 font-weight: 200;
@@ -128,7 +219,7 @@ height: auto;
 margin-top: 20px;
 color:#565656;
 }
-footer {
+/* footer {
 background-color: black;
 width: 100%;
 height: auto;
@@ -148,4 +239,4 @@ padding: 35px 0;
 color: #565656;
 font-weight: 400;
 font-size: 40px;
-}
+} */
