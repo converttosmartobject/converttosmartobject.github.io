@@ -57,9 +57,9 @@ background-image: url("images/bed.jpg");
 }
 .about2 {
 padding: 100px 0;
-background-size: cover;
+background-size: contain;
 background-color: #ffff99;
-background-image: url("images/light.jpg");
+background-image: url("images/hole.jpg");
 }
 .about3 {
 padding: 100px 0;
@@ -134,10 +134,9 @@ padding: 15px;
 .about2 p {
 font-family: 'Barlow', sans-serif;
 font-weight: 200;
-text-align: center;
+text-align: left;
 font-size: 15px;
 margin:0 auto;
-margin-top: 70px;
 max-width: 50%;
 color: white;
 padding: 15px;
@@ -206,4 +205,10 @@ height: auto;
 #group div h2 {
 margin-top: 20px;
 color:#565656;
+}
+
+.frame {
+  width:1000px;
+  height:500px;
+  padding-left: 350px;
 }
