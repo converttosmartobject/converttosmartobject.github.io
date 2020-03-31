@@ -59,20 +59,20 @@ background-image: url("images/bed.JPG");
 padding: 100px 0;
 background-size: contain;
 background-color: #ffff99;
-background-image: url("images/hole.jpg");
+background-image: url("images/hole.JPG");
 }
 .about3 {
 padding: 100px 0;
 background-size: cover;
 background-color: #ffff99;
-background-image: url("images/clock.jpg");
+background-image: url("images/clock.JPG");
 }
 .about4 {
 padding: 100px 0;
 background-repeat:no-repeat;
 background-size: cover;
 background-color: #ffff99;
-background-image: url("images/lamp.jpg");
+background-image: url("images/lamp.JPG");
 }
 .about h1 {
 font-family: 'Libre Barcode 39 Text', cursive;
