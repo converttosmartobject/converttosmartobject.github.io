@@ -53,7 +53,7 @@ width: 100%;
 padding: 100px 0;
 background-size: cover;
 background-color: #ffff99;
-background-image: url("images/bed.JPG");
+background-image: url("images/bed2.JPG");
 }
 .about2 {
 padding: 100px 0;
@@ -90,7 +90,7 @@ text-align: left;
 font-size: 50px;
 margin-bottom: 50px;
 font-weight:500px;
-color:white;
+color:black;
 }
 .about3 h1 {
 font-family: 'Libre Barcode 39 Text', cursive;
@@ -108,7 +108,7 @@ text-align: left;
 font-size: 50px;
 margin-bottom: 50px;
 font-weight:500px;
-color:white;
+color:black;
 }
 #circle {
 width: 300px;
@@ -118,7 +118,7 @@ background-image: url("images/profile.jpg");
 -webkit-border-radius: 50px;
 border-radius: 450px;
 margin: 0 auto;
-opacity: 1;
+opacity: 0.25;
 }
 .about p {
 font-family: 'Barlow', sans-serif;
@@ -211,4 +211,16 @@ color:#565656;
   width:1000px;
   height:500px;
   padding-left: 350px;
+}
+
+.pieces {
+  width: 526px;
+  height: 695px;
+  padding-left: 350px;
+}
+
+.ajar {
+  width: 600px;
+  height: 495px;
+  padding-left: 461px;
 }
