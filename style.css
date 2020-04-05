@@ -221,6 +221,12 @@ color:#565656;
 
 .ajar {
   width: 600px;
-  height: 495px;
-  padding-left: 461px;
+  height: 461px;
+  padding-left: 350px;
+}
+
+.glitch {
+  width: 900px;
+  height: 600px;
+  padding-left: 350px;
 }
